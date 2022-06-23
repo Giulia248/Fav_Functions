@@ -1,13 +1,13 @@
 # Fav_Functions
 My most used functions 
 
-[Bottoni](## Button)  
-[Custom Color](## custom-colour)  
-[url image](## image-by-url)  
+[Bottoni](##-Button)  
+[Custom Color](##-custom-colour)  
+[url image](##-image-by-url)  
 
 ## Button
 
-'''
+''
                   
                   Button {
                 
@@ -21,11 +21,11 @@ My most used functions
             }.offset(x: 0, y: 300)
 
 
-'''
+''
 
 ## custom colour
 
-'''
+''
 
     struct CustomColor {
       static let myColor = Color("mycolor")
@@ -33,14 +33,14 @@ My most used functions
     }
     .foregroundColor(CustomColor.myColor)
     
-'''
+''
 
 ## image by url
 
-'''
+''
 
     AsyncImage(url: URL(string: "url"))
 
-'''
+''
 
 
