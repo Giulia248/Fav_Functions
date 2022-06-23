@@ -5,7 +5,7 @@ My most used functions
 [Custom Color](##custom-colour)  
 [url image](##image-by-url)  
 
-##Button
+## Button
 
 '''
                   
@@ -23,7 +23,7 @@ My most used functions
 
 '''
 
-##custom colour
+## custom colour
 
 '''
 
@@ -35,7 +35,7 @@ My most used functions
     
 '''
 
-##image by url
+## image by url
 
 '''
 
