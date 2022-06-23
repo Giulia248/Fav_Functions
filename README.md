@@ -1,9 +1,9 @@
 # Fav_Functions
 My most used functions 
 
-[Bottoni](##Button)  
-[Custom Color](##custom-colour)  
-[url image](##image-by-url)  
+[Bottoni](## Button)  
+[Custom Color](## custom-colour)  
+[url image](## image-by-url)  
 
 ## Button
 
