@@ -1,13 +1,11 @@
 # Fav_Functions
 My most used functions 
 
-[Bottoni](## Button)  
-[Custom Color](## custom colour)  
-[url image](## image by url)  
+[Bottoni](##Button)  
+[Custom Color](##custom-colour)  
+[url image](##image-by-url)  
 
-
-<a name="Button"/>
-## Button
+##Button
 
 '''
                   
@@ -25,7 +23,7 @@ My most used functions
 
 '''
 
-## custom colour
+##custom colour
 
 '''
 
@@ -37,7 +35,7 @@ My most used functions
     
 '''
 
-## image by url
+##image by url
 
 '''
 
