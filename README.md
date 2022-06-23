@@ -50,9 +50,9 @@ My most used functions
 
         NavigationView{
             ZStack{
-                Image("a").resizable().frame(width: 800, height: 1000)
+                Image("background").resizable().frame(width: 800, height: 1000)
                  NavigationLink(destination: ContentView2()) {
-                   Text("Random Animal").padding().foregroundColor(CustomColor.verde).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black, lineWidth: 5))              
+                   Text("button").padding().foregroundColor(CustomColor.verde).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black, lineWidth: 5))              
                     }  
                 } 
         }
