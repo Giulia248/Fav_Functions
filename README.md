@@ -23,6 +23,7 @@ My most used functions
 
 
 '
+[go up](#Fav_Functions)  
 
 ## custom colour
 
@@ -35,6 +36,7 @@ My most used functions
     .foregroundColor(CustomColor.myColor)
    
 '
+[go up](#Fav_Functions)  
 
 ## image by url
 
@@ -43,6 +45,7 @@ My most used functions
     AsyncImage(url: URL(string: "url"))
 
 '
+[go up](#Fav_Functions)  
 
 ## change view
 
