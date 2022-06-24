@@ -17,7 +17,7 @@ My most used functions
                  
                  
             }label :{
-    Text("label").padding().foregroundColor(CustomColor.verde).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black,   lineWidth: 5))  
+    Text("label").padding().foregroundColor(.black).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black,   lineWidth: 5))  
                 
             }.offset(x: 0, y: 300)
 
