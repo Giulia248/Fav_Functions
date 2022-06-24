@@ -11,16 +11,15 @@ My most used functions
 '
                   
                   Button {
-                
-                //actions
-                     
-                 
-                 
+                    
+                    //actions
+                                         
             }label :{
     Text("label").padding().foregroundColor(.black).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black,   lineWidth: 5))  
                 
             }.offset(x: 0, y: 300)
-
+    //-------------------------
+    Text("label").padding().foregroundColor(.black).font(.system(size: 30)).offset(x: 0, y: 0)
 
 '
 [go up](#Fav_Functions)  
