@@ -1,12 +1,12 @@
 # Fav_Functions
 My most used functions 
 
-[Button](#Button)  
+[Button + Label](#Button-and-labels)  
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
 [change view](#change-view)  
 
-## Button
+## Button and Labels
 
 '
                   
