@@ -1,7 +1,7 @@
 # Fav_Functions
 My most used functions 
 
-[Bottoni](#Button)  
+[Button](#Button)  
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
 [change view](#change-view)  
