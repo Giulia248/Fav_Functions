@@ -62,7 +62,8 @@ My most used functions
 
 '
 
-#change view2
+## change view2
+
 '
         TabView {
                   View1()
@@ -80,3 +81,4 @@ My most used functions
         }
 '
 
+[go up](#Fav_Functions)  
