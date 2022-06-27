@@ -4,7 +4,8 @@ My most used functions
 [Button + Label](#Button-and-labels)  
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
-[change view](#change-view)  
+[change view](#change-view) 
+[change view2](#change-view2)  
 
 ## Button and Labels
 
@@ -59,5 +60,23 @@ My most used functions
                 } 
         }
 
+'
+
+#change view2
+'
+        TabView {
+                  View1()
+                       .tabItem {
+                           Label("label", systemImage: "qrcode.viewfinder").foregroundColor(.black)
+                               .navigationTitle("View1")
+                       }
+
+                  View2()
+                       .tabItem {
+                           Label("label", systemImage: "qrcode.viewfinder").foregroundColor(.black)
+                               .navigationTitle("View2")
+                       }
+
+        }
 '
 
