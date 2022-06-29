@@ -66,31 +66,23 @@ My most used functions
 
 '
 
-        TabView {
+         TabView {
             ZStack {
-                //background
+                Image("a").scaledToFill().ignoresSafeArea()
                 
-                VStack {
-                        //do not delete this
-                        Text("")
-                        .padding()
-                        .frame(maxHeight: .infinity)
-                    
-                    //create a rettangle in the bottom of the screen
-                    Rectangle()
-                        .fill(Color.clear)
-                        .frame(height: 10)
-                        .background(Color.green.opacity(0.2))
-                }
                 
             }
-            View()
+            Insects()
                        .tabItem {
-                           Label("", systemImage: "qrcode.viewfinder")
+                           Label("Seleziona insetto", systemImage: "ant")
                                .navigationTitle("")
+                               
+                               
                        }
-  
-        }
+
+        }.onAppear() {
+            UITabBar.appearance().backgroundColor = .gray
+            
         
 '
 
