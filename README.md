@@ -65,6 +65,7 @@ My most used functions
 ## change view2
 
 '
+
         TabView {
                   View1()
                        .tabItem {
@@ -79,6 +80,7 @@ My most used functions
                        }
 
         }
+        
 '
 
 [go up](#Fav_Functions)  
