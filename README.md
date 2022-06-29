@@ -5,6 +5,7 @@ My most used functions
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
 [change view](#change-view) 
+
 [change view2](#change-view2)  
 
 ## Button and Labels
@@ -67,18 +68,28 @@ My most used functions
 '
 
         TabView {
-                  View1()
+            ZStack {
+                //background
+                
+                VStack {
+                    
+                        .padding()
+                        .frame(maxHeight: .infinity)
+                    
+                    //create a rettangle in the bottom of the screen
+                    Rectangle()
+                        .fill(Color.clear)
+                        .frame(height: 10)
+                        .background(Color.green.opacity(0.2))
+                }
+                
+            }
+            View()
                        .tabItem {
-                           Label("label", systemImage: "qrcode.viewfinder").foregroundColor(.black)
-                               .navigationTitle("View1")
+                           Label("", systemImage: "qrcode.viewfinder")
+                               .navigationTitle("")
                        }
-
-                  View2()
-                       .tabItem {
-                           Label("label", systemImage: "qrcode.viewfinder").foregroundColor(.black)
-                               .navigationTitle("View2")
-                       }
-
+  
         }
         
 '
