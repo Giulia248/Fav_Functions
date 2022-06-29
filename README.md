@@ -50,13 +50,20 @@ My most used functions
 
 '
 
-        NavigationView{
+                NavigationView{
             ZStack{
-                Image("background").resizable().frame(width: 800, height: 1000)
-                 NavigationLink(destination: ContentView2()) {
-                   Text("button").padding().foregroundColor(CustomColor.verde).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black, lineWidth: 5))              
-                    }  
-                } 
+                Image("background").scaledToFit().ignoresSafeArea()
+                VStack{
+                    Text(" ")
+                    Spacer().frame( height: 200)
+                    NavigationLink(destination: view()) {
+                        
+                        Label( "", systemImage: "").font(.system(size: 20))
+                      
+                    }.frame(width: 200, height: 200, alignment: .bottom)
+                }
+                 
+                }
         }
 
 '
