@@ -20,8 +20,7 @@ My most used functions
                 
             }.offset(x: 0, y: 300)
     //-------------------------
-    Text("label").padding().foregroundColor(.black).font(.system(size: 30)).offset(x: 0, y: 0)
-
+    Text("label").font(.system(size: 20)).frame(width: 300, height: 300, alignment: .center).padding().lineLimit(100)
 '
 [go up](#Fav_Functions)  
 
