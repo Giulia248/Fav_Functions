@@ -71,7 +71,8 @@ My most used functions
                 //background
                 
                 VStack {
-                    
+                        //do not delete this
+                        Text("")
                         .padding()
                         .frame(maxHeight: .infinity)
                     
