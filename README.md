@@ -82,6 +82,7 @@ My most used functions
 
         }.onAppear() {
             UITabBar.appearance().backgroundColor = .gray
+            .withAlphaComponent(0.8)
             
         
 '
