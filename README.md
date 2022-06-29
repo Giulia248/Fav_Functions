@@ -5,7 +5,6 @@ My most used functions
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
 [change view](#change-view) 
-
 [change view2](#change-view2)  
 
 ## Button and Labels
