@@ -19,7 +19,7 @@ My most used functions
     Text("label").padding().foregroundColor(.black).font(.system(size: 30)).overlay(RoundedRectangle(cornerRadius:50).stroke(Color.black,   lineWidth: 5))  
                 
             }.offset(x: 0, y: 300)
-            
+            //-------------------------
             //button with icon/image
             Button(action: {
     // Do something...
