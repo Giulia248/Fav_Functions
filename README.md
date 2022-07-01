@@ -23,11 +23,11 @@ My most used functions
             //button with icon/image
             Button(action: {
     // Do something...
-}, label: {
-    Image("download")
-})
-    //-------------------------
-    Text("label").font(.system(size: 20)).frame(width: 300, height: 300, alignment: .center).padding().lineLimit(100)
+    }, label: {
+        Image("download")
+    })
+        //-------------------------
+        Text("label").font(.system(size: 20)).frame(width: 300, height: 300, alignment: .center).padding().lineLimit(100)
 '
 [go up](#Fav_Functions)  
 
