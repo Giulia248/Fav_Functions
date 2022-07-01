@@ -111,5 +111,5 @@ My most used functions
 
 ## Links
 
-" [title](link)  "
+" [title].(link)  "
 
