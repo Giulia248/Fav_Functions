@@ -5,7 +5,11 @@ My most used functions
 [Custom Color](#custom-colour)  
 [url image](#image-by-url)  
 [change view](#change-view) 
-[change view2](#change-view2)  
+[change view2](#change-view2)
+
+
+
+[GitHub readMe Functions](#GitHub-readMe-Functions)  
 
 ## Button and Labels
 
@@ -101,3 +105,11 @@ My most used functions
 '
 
 [go up](#Fav_Functions)  
+
+
+# GitHub readMe Functions
+
+## Links
+
+" [title](link)  "
+
