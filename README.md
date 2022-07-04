@@ -13,7 +13,7 @@ My most used functions
 
 ## Button and Labels
 
-'
+```
                   
                   Button {
                     
@@ -32,12 +32,12 @@ My most used functions
     })
         //-------------------------
         Text("label").font(.system(size: 20)).frame(width: 300, height: 300, alignment: .center).padding().lineLimit(100)
-'
+```
 [go up](#Fav_Functions)  
 
 ## custom colour
 
-'
+```
 
     struct CustomColor {
       static let myColor = Color("mycolor")
@@ -45,21 +45,21 @@ My most used functions
     }
     .foregroundColor(CustomColor.myColor)
    
-'
+```
 [go up](#Fav_Functions)  
 
 ## image by url
 
-'
+```
 
     AsyncImage(url: URL(string: "url"))
 
-'
+```
 [go up](#Fav_Functions)  
 
 ## change view
 
-'
+```
 
                 NavigationView{
             ZStack{
@@ -77,11 +77,11 @@ My most used functions
                 }
         }
 
-'
+```
 
 ## change view2
 
-'
+```
 
          TabView {
             ZStack {
@@ -102,7 +102,7 @@ My most used functions
             .withAlphaComponent(0.8)
             
         
-'
+```
 
 [go up](#Fav_Functions)  
 
@@ -112,4 +112,8 @@ My most used functions
 ## Links
 
 " [title].(link)  "
+
+## Backtick code frame
+``` ```
+
 
